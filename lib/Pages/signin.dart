@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:week_4/Pages/Signup.dart';
 import 'package:week_4/Widgets/TextField.dart';
+import 'package:week_4/Widgets/my_button.dart';
 
 class SignIn extends StatelessWidget {
   TextEditingController emailcontroller = TextEditingController();
@@ -61,7 +62,10 @@ class SignIn extends StatelessWidget {
                     ),
                   )
                 ],
-              )
+              ),
+              const SizedBox(height: 20,),
+              MyButton(),
+
             ],
           ),
         ),
